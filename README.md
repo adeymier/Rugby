@@ -1,3 +1,3 @@
 # Rugby  
 
-Ceci est la page d'accueil pour le projet Rugby
+Vous trouvere ici les documents liées à mes analyses sur le rugby
