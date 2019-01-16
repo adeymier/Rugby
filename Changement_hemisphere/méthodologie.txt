@@ -1,0 +1,25 @@
+﻿Méthodologie pour isoler les joueurs changeant d’hémisphère.
+
+-Sont présent dans la base de données les joueurs de nationalité des pays suivant :
+Argentine, Nouvelle-Zélande, Afrique du Sud, Australie, Samoa, Tonga, Fidji.
+
+-Je considère que ces joueurs changent d’hémisphère lorsqu’ils effectuent leur première saison dans un des championnat suivant :
+Ligue Celtique, Top League, Premiership, Top 14
+
+-Dans la base de données vous trouvez les variables suivantes concernant ces joueurs :
+	Nom
+	Prénom
+	le Club dans lequel il joue
+	Saison pendant laquelle le joueur a changé d’hémisphère
+	le Pays dans lequel il joue
+	la Compétition dans laquelle il joue
+	le Nationalité du joueur
+	le Lien vers la source des données du joueur sur itsrugby.com
+
+-Commentaires :
+	Des erreurs à la marge sont tout à fait possibles. Par exemple, Dan Carter est considéré comme joueur changeant d’hémisphère lorsqu’il vient jouer à l’USAP mais pas lorsqu’il revient jouer au Racing parce qu’il a déjà jouer une saison en Top 14.
+	J’ai des doutes sur la fiabilité des données pour le championnat japonais pour les premières saisons du graphique, donc à prendre avec des pincettes.
+	Le graphique commence pour la saison 06/07 pour la simple raison que le Top 14 commençant en 05/06, par définition, tout les joueurs étrangers dans la base font leurs première saison en Top 14 cette saison là.
+
+
+
